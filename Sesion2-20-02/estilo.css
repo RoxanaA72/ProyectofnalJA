@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&display=swap');
+body{
+    background-image: url('images/fondo.jpg');
+    
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+img{
+    width: 25%;
+}
+table{
+    background-color: aqua;
+}
+p{
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+}
+h1{
+    font-family: "Dancing Script", cursive;
+}
+.contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    transform: translate(-49%, -49%);
+}
+.mapa{
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    transform: translate(-49%, -49%);
+}
